@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1073519256287-eucehagfmq5ser4nvd41m9kaebg04g9e.apps.googleusercontent.com</string>
+	<string>1073519256287-1eeq7ogck4a1ej6atvcfegjepcuaidnp.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1073519256287-eucehagfmq5ser4nvd41m9kaebg04g9e</string>
+	<string>com.googleusercontent.apps.1073519256287-1eeq7ogck4a1ej6atvcfegjepcuaidnp</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD8zEW5q1OnegG762s8_wPUN_hTcFo6SZQ</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.pops.pops</string>
+	<string>com.pops.dsb</string>
 	<key>PROJECT_ID</key>
 	<string>pops-51996</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1073519256287:ios:2adf67f5814b8c8517bf6a</string>
+	<string>1:1073519256287:ios:e659dd40096c0c8f17bf6a</string>
 	<key>DATABASE_URL</key>
 	<string>https://pops-51996.firebaseio.com</string>
 </dict>

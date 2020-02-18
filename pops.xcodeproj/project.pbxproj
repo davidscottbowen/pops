@@ -3,21 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46F3C06B23FC6E8B00500272 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */; };
 		46FD942223FC60650094A86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD942123FC60650094A86A /* AppDelegate.swift */; };
 		46FD942423FC60650094A86A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD942323FC60650094A86A /* SceneDelegate.swift */; };
 		46FD942623FC60650094A86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD942523FC60650094A86A /* ViewController.swift */; };
 		46FD942923FC60650094A86A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FD942723FC60650094A86A /* Main.storyboard */; };
 		46FD942B23FC60670094A86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FD942A23FC60670094A86A /* Assets.xcassets */; };
 		46FD942E23FC60670094A86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FD942C23FC60670094A86A /* LaunchScreen.storyboard */; };
-		46FD943623FC611F0094A86A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46FD943523FC611F0094A86A /* GoogleService-Info.plist */; };
 		F86A327893B587C8422300DD /* Pods_pops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F95E3D57CE172544B51981 /* Pods_pops.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		46FD941E23FC60650094A86A /* pops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FD942123FC60650094A86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FD942323FC60650094A86A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		46FD942A23FC60670094A86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46FD942D23FC60670094A86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46FD942F23FC60670094A86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46FD943523FC611F0094A86A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C0645731ED77C8C06CA5E549 /* Pods-pops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pops.release.xcconfig"; path = "Target Support Files/Pods-pops/Pods-pops.release.xcconfig"; sourceTree = "<group>"; };
 		E0F95E3D57CE172544B51981 /* Pods_pops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8487DEEC2C9D2FA66CA543 /* Pods-pops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pops.debug.xcconfig"; path = "Target Support Files/Pods-pops/Pods-pops.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				46FD942A23FC60670094A86A /* Assets.xcassets */,
 				46FD942C23FC60670094A86A /* LaunchScreen.storyboard */,
 				46FD942F23FC60670094A86A /* Info.plist */,
-				46FD943523FC611F0094A86A /* GoogleService-Info.plist */,
+				46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */,
 			);
 			path = pops;
 			sourceTree = "<group>";
@@ -83,7 +83,6 @@
 				EB8487DEEC2C9D2FA66CA543 /* Pods-pops.debug.xcconfig */,
 				C0645731ED77C8C06CA5E549 /* Pods-pops.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -106,6 +105,7 @@
 				46FD941A23FC60650094A86A /* Sources */,
 				46FD941B23FC60650094A86A /* Frameworks */,
 				46FD941C23FC60650094A86A /* Resources */,
+				60FFFF442FC66A2D8FF2A71D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46FD942E23FC60670094A86A /* LaunchScreen.storyboard in Resources */,
-				46FD943623FC611F0094A86A /* GoogleService-Info.plist in Resources */,
+				46F3C06B23FC6E8B00500272 /* GoogleService-Info.plist in Resources */,
 				46FD942B23FC60670094A86A /* Assets.xcassets in Resources */,
 				46FD942923FC60650094A86A /* Main.storyboard in Resources */,
 			);
@@ -164,6 +164,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		60FFFF442FC66A2D8FF2A71D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pops/Pods-pops-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pops/Pods-pops-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pops/Pods-pops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		63ED1B30579476CB524CA827 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pops.pops;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pops.dsb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pops.pops;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pops.dsb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
