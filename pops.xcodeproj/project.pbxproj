@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46233C65240028B9002C11A2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46233C64240028B9002C11A2 /* RoundButton.swift */; };
+		46EC7D85240026620073F04B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EC7D84240026620073F04B /* LoginViewController.swift */; };
 		46F3C06B23FC6E8B00500272 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */; };
 		46FD942223FC60650094A86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD942123FC60650094A86A /* AppDelegate.swift */; };
 		46FD942423FC60650094A86A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD942323FC60650094A86A /* SceneDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46233C64240028B9002C11A2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		46EC7D84240026620073F04B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		46FD941E23FC60650094A86A /* pops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FD942123FC60650094A86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				46FD942C23FC60670094A86A /* LaunchScreen.storyboard */,
 				46FD942F23FC60670094A86A /* Info.plist */,
 				46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */,
+				46EC7D84240026620073F04B /* LoginViewController.swift */,
+				46233C64240028B9002C11A2 /* RoundButton.swift */,
 			);
 			path = pops;
 			sourceTree = "<group>";
@@ -210,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EC7D85240026620073F04B /* LoginViewController.swift in Sources */,
+				46233C65240028B9002C11A2 /* RoundButton.swift in Sources */,
 				46FD942623FC60650094A86A /* ViewController.swift in Sources */,
 				46FD942223FC60650094A86A /* AppDelegate.swift in Sources */,
 				46FD942423FC60650094A86A /* SceneDelegate.swift in Sources */,
