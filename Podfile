@@ -9,7 +9,9 @@ target 'pops' do
   # add pods for desired Firebase products
   # https://firebase.google.com/docs/ios/setup#available-pods
 
+  pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 
 end

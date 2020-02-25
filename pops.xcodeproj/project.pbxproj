@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461A8F7F240568A400219839 /* FBtestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A8F7E240568A400219839 /* FBtestViewController.swift */; };
 		46233C65240028B9002C11A2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46233C64240028B9002C11A2 /* RoundButton.swift */; };
 		46EC7D85240026620073F04B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EC7D84240026620073F04B /* LoginViewController.swift */; };
 		46F3C06B23FC6E8B00500272 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		461A8F7E240568A400219839 /* FBtestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBtestViewController.swift; sourceTree = "<group>"; };
 		46233C64240028B9002C11A2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		46EC7D84240026620073F04B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				46F3C06A23FC6E8B00500272 /* GoogleService-Info.plist */,
 				46EC7D84240026620073F04B /* LoginViewController.swift */,
 				46233C64240028B9002C11A2 /* RoundButton.swift */,
+				461A8F7E240568A400219839 /* FBtestViewController.swift */,
 			);
 			path = pops;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				46233C65240028B9002C11A2 /* RoundButton.swift in Sources */,
 				46FD942623FC60650094A86A /* ViewController.swift in Sources */,
 				46FD942223FC60650094A86A /* AppDelegate.swift in Sources */,
+				461A8F7F240568A400219839 /* FBtestViewController.swift in Sources */,
 				46FD942423FC60650094A86A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
